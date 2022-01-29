@@ -1,0 +1,26 @@
+.banner-right {
+  min-height: 100%;
+}
+
+.banner-right-part {
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  justify-content: center;
+}
+
+.banner-img {
+  position: relative;
+  animation: glide 2s ease-in-out alternate infinite;
+}
+@keyframes glide {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+
+  to {
+    left: 0px;
+    top: 20px;
+  }
+}
