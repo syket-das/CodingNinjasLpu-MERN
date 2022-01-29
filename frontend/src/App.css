@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h80 {
+  min-height: 80vh;
+}
