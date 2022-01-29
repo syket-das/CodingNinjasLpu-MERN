@@ -26,6 +26,14 @@ const Footer = () => {
         <p className="text-center mt-3">
           All Right Reserved &copy; Coding Ninjas Lpu
         </p>
+        <p className="text-center text-light">
+          Created By{' '}
+          <a target="_blank" rel="noreferrer" href="https://syket-das.me">
+            <span className="text-danger text-decoration-underline">
+              Syket Das
+            </span>
+          </a>
+        </p>
       </Container>
     </div>
   );
