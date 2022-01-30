@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  Accordion,
-  Card,
-  Carousel,
-  Col,
-  Container,
-  Image,
-  Row,
-} from 'react-bootstrap';
+import { Accordion, Card, Col, Container,  Row } from 'react-bootstrap';
 // rand img url: https://source.unsplash.com/random/600x400
 const EventsPage = () => {
   return (
