@@ -8,7 +8,7 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Submitted');
+    console.log(name, email, message);
     setName('');
     setEmail('');
     setMessage('');
@@ -41,7 +41,11 @@ const ContactPage = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
         </Form.Group>
-        <Button type="submit" className="btn btn-primary">
+        <Button
+          type="submit"
+          className="btn btn-primary"
+          onClick={handleSubmit}
+        >
           Submit
         </Button>
       </Form>
