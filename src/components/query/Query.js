@@ -6,7 +6,7 @@ const Query = () => {
   return (
     <Container className="query">
       <Accordion defaultActiveKey="0">
-        <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey="1">
           <Accordion.Header>Submit Query</Accordion.Header>
           <Accordion.Body>
             <Form>
@@ -24,7 +24,9 @@ const Query = () => {
                 <Form.Label>Query</Form.Label>
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
-              <Button type='submit' className="w-100 btn-block btn-primary">Submit</Button>
+              <Button type="submit" className="w-100 btn-block btn-primary">
+                Submit
+              </Button>
             </Form>
           </Accordion.Body>
         </Accordion.Item>
