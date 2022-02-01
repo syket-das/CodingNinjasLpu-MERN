@@ -2,16 +2,16 @@ import React from 'react';
 import './homePage.css';
 import { Container } from 'react-bootstrap';
 
-import AboutPage from '../about/AboutPage';
 import Banner from '../../components/banner/Banner';
 import Query from '../../components/query/Query';
+import TodaysQue from '../practice/todaysQue/TodaysQue';
 
 const HomePage = () => {
   return (
     <Container className="home">
       <Query />
       <Banner />
-      <AboutPage />
+      <TodaysQue />
     </Container>
   );
 };
