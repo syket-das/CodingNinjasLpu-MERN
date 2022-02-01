@@ -4,7 +4,8 @@ import { Container } from 'react-bootstrap';
 
 import Banner from '../../components/banner/Banner';
 import Query from '../../components/query/Query';
-import TodaysQue from '../practice/todaysQue/TodaysQue';
+import TodaysQue from '../../components/todaysQue/TodaysQue';
+
 
 const HomePage = () => {
   return (
