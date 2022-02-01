@@ -7,12 +7,14 @@ require('codemirror/mode/xml/xml');
 require('codemirror/mode/javascript/javascript');
 
 const TodaysQue = () => {
-  const [que, setQue] = React.useState('Question');
+  // const [que, setQue] = React.useState('Question');
   const [code, setCode] = React.useState(null);
 
   // const handleQueChange = (editor, data, value) => {
   //   setCode(value);
   // };
+  const que = 'This is a sample question';
+
   const handleCodeChange = (editor, data, value) => {
     setCode(value);
   };
